@@ -50,6 +50,7 @@ img = cv2.imread('Eagle_in_Flight.jpg',0)
 ```python
 img.shape
 ```
+<img width="93" height="34" alt="Screenshot 2025-08-21 201045" src="https://github.com/user-attachments/assets/ff098c4c-55c0-43fa-90d6-075bfd6bbcf9" />
 
 #### 3. Display the image using matplotlib imshow().
 ```python
@@ -58,6 +59,7 @@ plt.title("GRAY IMAGE")
 plt.axis("on")
 plt.show()
 ```
+<img width="595" height="494" alt="Screenshot 2025-08-21 201028" src="https://github.com/user-attachments/assets/46bc3981-3494-48fa-98e5-d0395d48d340" />
 
 #### 4. Save the image as a PNG file using OpenCV imwrite().
 ```python
@@ -78,6 +80,8 @@ plt.axis("on")
 plt.show()
 clr_img.shape
 ```
+<img width="616" height="520" alt="Screenshot 2025-08-21 201120" src="https://github.com/user-attachments/assets/250d9844-476f-4ac0-920f-8806b87b9cbe" />
+
 
 #### 7. Crop the image to extract any specific (Eagle alone) object from the image.
 ```python
@@ -87,6 +91,8 @@ plt.title("CROPPED IMAGE")
 plt.axis("on")
 plt.show()
 ```
+<img width="451" height="491" alt="Screenshot 2025-08-21 201135" src="https://github.com/user-attachments/assets/ad7b9ca1-4dd7-423b-b725-a820491f4d71" />
+
 
 #### 8. Resize the image up by a factor of 2x.
 ```python
@@ -103,6 +109,8 @@ plt.title("FLIPPED IMAGE")
 plt.axis("off")
 plt.show()
 ```
+<img width="428" height="464" alt="Screenshot 2025-08-21 201202" src="https://github.com/user-attachments/assets/a60806f4-6af7-49be-8d9c-cbbfa26a068d" />
+
 
 #### 10. Read in the image ('Apollo-11-launch.jpg').
 ```python
@@ -113,6 +121,8 @@ plt.title("IMAGE")
 plt.axis("on")
 plt.show()
 ```
+<img width="652" height="403" alt="Screenshot 2025-08-21 201221" src="https://github.com/user-attachments/assets/805ae7b2-d940-47d1-bb34-3b327c41f5d1" />
+
 
 #### 11. Add the following text to the dark area at the bottom of the image (centered on the image):
 ```python
@@ -137,6 +147,8 @@ plt.title("IMAGE")
 plt.axis("off")
 plt.show()
 ```
+<img width="598" height="370" alt="Screenshot 2025-08-21 201255" src="https://github.com/user-attachments/assets/d823bd06-c102-43c2-9a3b-a02b16d9fd2d" />
+
 
 #### 14. Read the image ('Boy.jpg').
 ```python
@@ -163,6 +175,8 @@ plt.subplot(131); plt.imshow(image); plt.title("ORIGINAL")
 plt.subplot(132); plt.imshow(img_darker); plt.title("DARKER")
 plt.subplot(133); plt.imshow(img_brighter); plt.title("BRGHTER");
 ```
+<img width="1245" height="339" alt="Screenshot 2025-08-21 201328" src="https://github.com/user-attachments/assets/ea3198e4-7eb5-40cd-9412-14dbd07c2377" />
+
 
 #### 18. Modify the image contrast.
 ```python
@@ -179,6 +193,8 @@ plt.subplot(131); plt.imshow(image); plt.title("ORIGINAL")
 plt.subplot(132); plt.imshow(img_higher1); plt.title("LOWER CONTRAST")
 plt.subplot(133); plt.imshow(img_higher2); plt.title("HIGHER CONTRAST");
 ```
+<img width="1247" height="339" alt="Screenshot 2025-08-21 201348" src="https://github.com/user-attachments/assets/9d1f940f-da91-4411-8a03-77023ff3ed7b" />
+
 
 #### 20. Split the image (boy.jpg) into the B,G,R components & Display the channels.
 ```python
@@ -189,6 +205,8 @@ plt.subplot(141); plt.imshow(r); plt.title("RED CHANNEL")
 plt.subplot(142); plt.imshow(g); plt.title("GREEN CHANNEL")
 plt.subplot(143); plt.imshow(b); plt.title("BLUE CHANNEL");
 ```
+<img width="1235" height="340" alt="Screenshot 2025-08-21 201410" src="https://github.com/user-attachments/assets/d66de73b-606a-4869-99cb-685190394f7b" />
+
 
 #### 21. Merged the R, G, B , displays along with the original image
 ```python
@@ -198,6 +216,8 @@ plt.figure(figsize = (22, 5))
 plt.subplot(131); plt.imshow(image); plt.title("ORIGINAL")
 plt.subplot(132); plt.imshow(merged_img); plt.title("MERGED");
 ```
+<img width="1249" height="488" alt="Screenshot 2025-08-21 201429" src="https://github.com/user-attachments/assets/075e0226-1738-4265-aad6-c763065ea1b4" />
+
 
 #### 22. Split the image into the H, S, V components & Display the channels.
 ```python
@@ -209,6 +229,9 @@ plt.subplot(141); plt.imshow(h); plt.title("H CHANNEL")
 plt.subplot(142); plt.imshow(s); plt.title("S CHANNEL")
 plt.subplot(143); plt.imshow(v); plt.title("V CHANNEL");
 ```
+<img width="1243" height="344" alt="Screenshot 2025-08-21 201447" src="https://github.com/user-attachments/assets/a81d8687-9094-4fae-ba83-b2a395b38054" />
+
+
 #### 23. Merged the H, S, V, displays along with original image.
 ```python
 merged_hsv = cv2.merge((h, s, v))
@@ -217,6 +240,7 @@ plt.figure(figsize = (22,5))
 plt.subplot(131); plt.imshow(image); plt.title("ORIGINAL")
 plt.subplot(132); plt.imshow(merged_hsv); plt.title("MERGED");
 ```
+<img width="1242" height="478" alt="Screenshot 2025-08-21 201504" src="https://github.com/user-attachments/assets/a20e6621-4c9d-4fe8-ae60-7d83a0338b9f" />
 
 ## Output:
 - **i)** Read and Display an Image.  
